@@ -1,7 +1,4 @@
-import {
-  CarLoan,
-  MortgageLoan,
-} from "../../../../src/gof/creational/abstract_factory/Loan";
+import { CarLoan, MortgageLoan } from "~/gof/creational/abstract_factory/Loan";
 
 test("Deve criar um financiamento imobiliário", () => {
   const loan = MortgageLoan.create(100000, 10000, 240);

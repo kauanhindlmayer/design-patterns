@@ -1,8 +1,8 @@
 import {
   PriceInstallmentCalculator,
   SACInstallmentCalculator,
-} from "../../../../src/gof/creational/abstract_factory/InstallmentCalculator";
-import { MortgageLoan } from "../../../../src/gof/creational/abstract_factory/Loan";
+} from "~/gof/creational/abstract_factory/InstallmentCalculator";
+import { MortgageLoan } from "~/gof/creational/abstract_factory/Loan";
 
 test("Deve calcular as parcelas do financiamento utilizando o método SAC", () => {
   const installmentCalculator = new SACInstallmentCalculator();
